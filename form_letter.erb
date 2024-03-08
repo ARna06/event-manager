@@ -25,6 +25,9 @@
         <th></th>
         <td><%= "#{legislators}" %></td>
         <% end %>
+        <% if phone_number != '' %>
+        <p> You have registered for mobile alerts to your phone number <%= phone_number %> </p>
+        <% end %>
     </table>
 </body>
 </html>
